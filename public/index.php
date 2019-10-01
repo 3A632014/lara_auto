@@ -11,4 +11,4 @@ $vincent = new Hello\Someone('Vincent');
 
 //以下Someone類別的使用可以不用use Demo\Hello;
 $mary = new \Demo\Hello\Someone('Mary');
-$john = new Someone('John');
+$john = new Demo\Hello\Someone('John');
