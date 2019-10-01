@@ -10,5 +10,5 @@ $lara = new Lara();
 $vincent = new Hello\Someone('Vincent');
 
 //以下Someone類別的使用可以不用use Demo\Hello;
-$mary = new Someone('Mary');
+$mary = new \Demo\Hello\Someone('Mary');
 $john = new Someone('John');
