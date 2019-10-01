@@ -1,5 +1,11 @@
 {
     "name": "lara_auto/lara_auto",
     "description": "lara_auto",
-    "require": {}
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "./src/Demo"
+        }
+    }
 }
