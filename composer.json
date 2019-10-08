@@ -2,7 +2,8 @@
     "name": "lara_auto/lara_auto",
     "description": "lara_auto",
     "require": {
-        "monolog/monolog": "^1.25"
+        "monolog/monolog": "^1.25",
+        "nesbot/carbon": "^2.25"
     },
 
     "autoload": {
