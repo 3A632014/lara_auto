@@ -1,7 +1,9 @@
 {
     "name": "lara_auto/lara_auto",
     "description": "lara_auto",
-    "require": {},
+    "require": {
+        "monolog/monolog": "^1.25"
+    },
 
     "autoload": {
         "psr-4": {
